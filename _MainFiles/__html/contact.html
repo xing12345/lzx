@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>大学三年</title>
+        <!--        META SECTION-->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=false" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+
+
+
+        <!--        STYLES SECTION -->
+
+        <link rel="stylesheet" href="css/jquery.mobile-1.0.min.css" /> 
+        <link rel="stylesheet" href="css/lightOrange.css" />
+
+        <!--        FONTS SECTION -->
+
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+
+
+
+        <!--        SCRIPT SECTION -->
+
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.0.min.js"></script> 
+
+    </head>
+    <body>
+        <!--    Page initialization      -->
+        <div data-role="page">
+
+
+
+            <!--            Header-->
+            <header data-role="header">
+                <h1>UNIVERSITY</h1>
+                <nav class="ui-grid-c">
+                    <div class="ui-block-a"><a href="index.html">首页</a></div>
+                    <div class="ui-block-b"><a href="portfolio.html">照片集</a></div>
+                    <div class="ui-block-c"><a href="blog.html">消息</a></div>
+                    <div class="ui-block-d"><a class="navSelected" href="contact.html">联系</a></div>
+                </nav>
+                <hr class="divider" />
+            </header>
+            <!--         Heder     END  -->
+
+
+
+
+            <!--            Main Content-->
+            <section data-role="content" class="wrappedWidth">
+                <section id="contact">
+                    <img class="mainIMG" src="images/refimages/map.jpg" alt="Map" />
+                    <h2>联系</h2>
+                    <div class="article-wrapper">
+                        <p>长沙师范学校地址： </p> 
+                             <p>湖南省长沙市长沙县星沙街道安沙镇毛塘铺长沙师范北校区</p>                  
+                        <span class="name-contact">李知行</span>
+                        <span class="number-contact">15570715185</span>
+                        <span class="mail-contact">15570715185@163.com</span>
+                    </div>
+                </section>
+
+                <section id="CommentForm">
+                    <h2>与我分享</h2>
+                    <form action="processForm.php" method="post">
+                        <input type="text" name="senderName" id="name" value="" placeholder="Username" />
+                        <input type="text" name="senderEmail" id="mail" value="" placeholder="Mail" />
+                        <textarea name="message" id="text" cols="30" rows="10" placeholder="Text" ></textarea>
+                        <input data-theme="a" type="submit" value="Submit" name="submit" />
+                    </form>
+                </section>
+            </section>
+            <!--  Main Content     END  -->
+
+
+
+
+
+
+            <!--         Footer   -->
+            <footer data-role="footer" data-theme="a" data-position="inline">
+                <hr class="divider" />
+                
+
+                <h4>UNIVERSITY</h4>
+                <p>大学，大学生活多姿多彩，我把我的大学生活与你分享。
+                </p>
+
+                <nav class="ui-grid-c">
+                    <div class="ui-block-a"><a href="index.html">首页</a></div>
+                    <div class="ui-block-b"><a class="navSelected" href="portfolio.html">照片集</a></div>
+                    <div class="ui-block-c"><a href="blog.html">消息</a></div>
+                    <div class="ui-block-d"><a href="contact.html">联系</a></div>
+                </nav>
+            </footer>   
+            <!--  Footer     END  -->  
+
+        </div>
+        <!--     Page initialization    END  -->
+    </body>
+</html>
